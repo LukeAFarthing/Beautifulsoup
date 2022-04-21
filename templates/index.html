@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html style="background-color:black;">
+<head>
+    <title>Title</title>
+</head>
+<body style="background-color:black;">
+    <h1 style="color:limegreen; text-align: center;">List of job details JSON</h1>
+    <p>
+    </p>
+    <ul style="color:whitesmoke; background-color:limegreen;">
+        {% for response in responseJSON %}
+        <li>{{ response }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
